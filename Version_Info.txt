@@ -1,0 +1,154 @@
+ Key Legend:
+                -- = current version
+                -wor: = working on this ver
+                 <-x_x-> = bug
+                 |x_x| = bug fixed
+                 <-o_o-> = design issue
+                 |o_o| = design issue fixed
+
+
+                     ~Updating to repo~
+               | --------------------------- |
+               | v# : Short Version Title    |
+               | Description: v# description |
+               | --------------------------- |
+ ----------------------------    ----------------------------   ------------------------- ------------------------------
+
+v0 GUI_WebScrap Creation: created the respo & assembled the data to be used for GUI to help assist a user to find a
+					        job/career of their choosing.
+
+v1 Added Packages: added packages & made the source folder into a source folder @ terminal_WebScrap/source to allow
+                        the program to function properly.
+
+v2 Added tkint_files: Add tkint_tutorial_files @ GUI_template its code from
+                        https://github.com/CyborgVillager/Gui_Tutorial/tree/master/tkint_tutorial_files
+                        Installed packages for pillow.
+                        Will be making 1-2 more examples of tkint then will convert it to work with the web_scraper file
+                        located @ terminal_WebScrap
+
+                 v2.5 EDIT: README.txt created @ tkint_tutorial_files to help give more info
+
+v3 Tkint1 Template: Mini template for the GUi program has been complete, will be working on giving the user an option
+                        for their job/career input, select a couple of options from buttons and connect the program
+                        that house the necass data to make this operation complete
+
+v4 Modified Source: modified source, will update basic_tk.py to hold the new data
+                    v4 Edit: Improved Source Code
+
+v5 Extra Information: Working on a more recent tkinter documentation/video thanks in part to Keith Galli for uploading
+                        a video discussing this.
+                        Updated Python GUI Documentation:
+                        https://www.tutorialspoint.com/python/python_gui_programming.htm
+                        Video Discussing the updated info & weather App: https://www.youtube.com/watch?v=D8-snVfekto
+                        His Github: https://github.com/KeithGalli/GUI
+
+                        The folder weather_gather is in thanks part to Keith Galli for uploading a video on a
+                        more updated tkinter tutorial Will be updating this folder with the new information, then
+                        will be implementing the new things that I've learned onto the job searching GUI project.
+
+v6 Button Added to Frame: Updated the color scheme of the background, and updated the button. Visual helps on the
+                                eyes
+                                - Color chooser from W3: https://www.w3schools.com/colors/colors_picker.asp
+                                Button has been moved from root to frame = responsive
+
+
+v7 Button,Label & User Input: Template created/ reference to be used for later use.
+
+
+v8 Pack Documentation: Pack Documentation for Tkinter -> https://www.tutorialspoint.com/python/tk_pack.htm
+                            v8 is a reference to side, check weather_app.py line 20-30 as an example
+ ----------------------------    ----------------------------   ------------------------- ------------------------------
+v9 Align Info : align button,text/input as reference
+
+v10 Place Documentation : Aquired Place Documentation to help in aid tkinter app creation
+                            link: https://www.tutorialspoint.com/python/tk_place.htm
+                            Place example created @ weather_app.py
+
+v11 Lower_Frame , Border: Lower_Frame & Border created to provide layout for the program -> weather_app.py
+                        v11.5 Edit: Blank template created - can be build upon
+
+v12 Background Added: Added background image to weather_app.py & made a source folder for it called weather_source
+
+v13 User_Input to Print : user input when they click the button 'Get Weather' now prints a response called
+                            Button Clicked. This function program name is called test_button.py / located @
+                            source folder & then imported onto weather_app.py.
+
+                            Afterwords it was made into a command @ a button -> command=test_function
+                            line 30 -> button = Button(frame, text='Get Weather!', font=40, command=test_function)
+
+
+v14 Updated Source & Organization: updated source folder into package_source, and moved the main program weather_source.py
+                                    to main_program. Made test_button.py into a source folder called secondary_program
+                                    and connected to weather_app.py. Changed line 31 to have the following:
+                                    command=lambda: test_function(entry.get()))
+
+
+v15 API Aquired : aquired API from https://openweathermap.org/forecast5. User can now scrap basic info of the state
+                    /city they are choosing from
+                    template to use -> api.openweathermap.org/data/2.5/forecast?q={city name},{country code}
+
+                    Updated test_button.py to include the API functionality & updated weather_app.py @ line 36 to
+                    have get_weather instead of test_function
+ ----------------------------    ----------------------------   ------------------------- ------------------------------
+v16 More Refined Response: Response is more refined, user can see the results in terminal
+
+v17 Weather Info Update: Visualize color change / updated info to give the user more data of the weather.
+
+v18 Min & Comment Info: Comment info & added min/elif temp changes with their corrosp color codes. This also includes
+                            adding labels for the temp, wind speed, and humidity
+
+                      v18.5 Edit: Deleted test_button.py and made weather_data that will hold the necass information
+                                    for the program to run correctly.
+
+
+v19 weather_app1: New weather_app1 to hold the data, will work on weather_app.py to give it access to the custom
+                    information / data organization. Once this project has been completed for the GUI job/career program.
+
+
+          v19.5 Edit: Text Font changed to help eyesight
+
+v20 Added Template for GUI_Job_Search <-x_x->: Added monster_scrap.py/ created GUI_Job_Search . As of now, its not
+                                                    functional/bugs are present. Will update with functional code,
+                                                    putting in custom info that was created a while back during my fall
+                                                    2019 semester, and with the updated tkint info.
+
+v21 Added Main_Shop.py : Added Main_Shop.py / place it onto Main_Shop_Template to use as reference
+                            link: https://github.com/CyborgVillager/jonathan_almawi_site/tree/master/resumesite/downloads
+
+v22 Re-Activated: This project has been reactivated will be updating in a bit
+
+                   v22.5 Edit: Central Time 6PM will be re-updating
+
+v23 Project Start: Project Start
+
+v24 Monster_GUI Change: modified the file monster_main.py to have the basic template, with its own source folder
+                            and data to hold it.
+
+v25 job_search_gui: Made a new .py file called job_search_gui which is has the basic model of scrapping
+                        monster.com site.
+
+                        Forked a respo from pbrzoska024 which includes saving the info onto a .txt or csv format,
+                        this will be handy for future updates for this mini project.
+                        Link : https://github.com/pbrzoska024/Web-Scraper-with-GUI-V.2
+
+
+                        As of now implementing colors to help the user see which information they want
+                        to see, such as the job location, occupation , etc
+
+                        v25.5 Edit - tkinter colors:
+                        Link: http://www.science.smith.edu/dftwiki/images/3/3d/TkInterColorCharts.png
+
+
+v26 Job Link: Currently implementing the link when-ever a user searched for a job name, they will
+                be given the info as well as a link for them to click on.
+
+                v26.5 Edit Link Added: now will be working on a clickable link for the user to use/see the
+                                    job data, without cutting and pasting it.
+
+
+
+v27 A.I Dev: will be working on this respo in a bit, and be improving the concept to be more visually pleasing &
+                easier to use for the average day user. It will be similiar to monster_main_gui.py.
+                Since its 2/5/20 will be re-igniting the ride for A.I development.
+
+--v28 Added License: added license

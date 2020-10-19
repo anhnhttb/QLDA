@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Gui_WebScraper/terminal_WebScrap/source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gui_WebScraper/GUI_template/tkint_tutorial_files/source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gui_WebScraper/GUI_template/tkint_tutorial_files/weather_gather/package_source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gui_WebScraper/GUI_template/tkint_tutorial_files/weather_gather/main_program/secondary_program" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gui_WebScraper/GUI_template/tkint_tutorial_files/weather_gather/main_program/third" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gui_WebScraper/GUI_template/tkint_tutorial_files/weather_gather/main_program/fou" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gui_WebScraper/GUI_template/GUI_Job_Search/package_source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gui_WebScraper/GUI_template/GUI_Job_Search/Monster_GUI/source" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/web_job_career_search_venv" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
